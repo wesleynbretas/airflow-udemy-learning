@@ -1,0 +1,7 @@
+[2025-02-14T21:05:06.631+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/05_trigger_dag copy.py
+[2025-02-14T21:05:06.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/05_trigger_dag copy.py for tasks to queue
+[2025-02-14T21:05:06.633+0000] {logging_mixin.py:190} INFO - [2025-02-14T21:05:06.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/05_trigger_dag copy.py
+[2025-02-14T21:05:06.647+0000] {processor.py:925} INFO - DAG(s) 'trigger_dag' retrieved from /opt/airflow/dags/05_trigger_dag copy.py
+[2025-02-14T21:05:06.786+0000] {logging_mixin.py:190} INFO - [2025-02-14T21:05:06.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-14T21:05:06.812+0000] {logging_mixin.py:190} INFO - [2025-02-14T21:05:06.812+0000] {dag.py:4180} INFO - Setting next_dagrun for trigger_dag to 2025-02-13 21:33:00+00:00, run_after=2025-02-14 21:33:00+00:00
+[2025-02-14T21:05:06.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/05_trigger_dag copy.py took 0.210 seconds
